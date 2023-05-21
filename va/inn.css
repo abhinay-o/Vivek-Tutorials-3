@@ -1,0 +1,247 @@
+* {
+    margin-top: 0%;
+    padding: 0%;
+    margin: 0%;
+    /* background: linear-gradient(45deg, greenyellow, dodgerblue); */
+ 
+}
+
+.logo img {
+    height: 82px;
+    width: 88px;
+    display: inline-flex;
+    border-radius: 40%;
+    filter: contrast(1);
+    filter: brightness(-10);
+    background: linear-gradient(45deg, greenyellow, dodgerblue); */
+}
+
+.logo {
+
+    display: inline-block;
+    margin-top: 22px;
+}
+
+.nav {
+    display: inline-flex;
+    width: 100%;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: linear-gradient(45deg, greenyellow, dodgerblue);
+
+
+}
+
+.content {
+    display: inline-flex;
+    margin-inline: auto;
+
+}
+
+.content li {
+    text-align: left;
+    font-size:medium;
+    padding: 8px;
+    margin-top: 12px;
+    margin-inline: auto;
+    list-style-type: none;
+
+}
+
+.content li a {
+    text-decoration: none;
+    padding: 6px;
+
+}
+
+.content li a:hover {
+    color: rgb(235, 186, 186);
+    background-color: black;
+    border-radius: 20px;
+}
+
+.reg{
+    color: rgb(39, 35, 35);
+    width: 60px;
+    margin-inline: auto;
+    height: 25px;
+    margin-top: 16px;
+    border-radius: 6px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 55px;
+}
+.reg:hover{
+    color: rgb(235, 186, 186);
+    background-color: black;
+}
+.reg:active {
+    background-color: green;
+    color: white;
+}
+.mid::before {
+    content: "";
+    position:absolute;
+    top: auto;
+    bottom: auto;
+    height: 60%;
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGVkdWNhdGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+
+}
+
+.mid {
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+
+.midright {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    
+}
+.midright h1{
+     text-decoration:underline overline;
+}
+
+.midleft {
+
+    position: relative;
+    display: grid;
+    width: 50%;
+}
+
+#picslider {
+    background: center/cover no-repeat url("images/slider.jpg");
+    /* border: 2px solid red; */
+    width: 85%;
+    height: 300px;
+    filter: drop-shadow(19px 11px 8px rgb(100, 94, 94));
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 40px;
+    animation: slider2 10s infinite linear;
+}
+
+@keyframes slider2 {
+    0% {
+        background: center/cover no-repeat url("images/slider.jpg");
+    }
+
+    50% {
+        background: center/cover no-repeat url("images/slider2.jpg");
+    }
+}
+
+#picslider:hover {
+      
+    filter: contrast(3);
+    filter: brightness(-1);
+}
+
+#polish {
+    /* border: 2px solid blue; */
+    height: 60px;
+    text-shadow: 5px 4px 4px rgb(39, 28, 8);
+}
+
+.midleft h1 {
+
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 5px;
+    border-right: 2px solid black;
+    /* font-stretch:condensed; */
+    animation: h1polish 5s infinite linear;
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@keyframes h1polish {
+    10% {
+        width: 8ch;
+    }
+
+    50% {
+        width: 14ch;
+    }
+
+    90% {
+        width: 30ch;
+    }
+}
+
+button[type=submit] {
+
+    margin-left: 160px;
+}
+
+button {
+    border-radius: 20px;
+    padding: 4px;
+    font-size: 10px;
+    margin: 4px;
+    cursor: pointer;}
+
+button:hover {
+    color: rgb(235, 186, 186);
+    background-color: black;
+}
+
+button:active {
+    background-color: rgb(156, 156, 238);
+    color: black;
+}
+.footer {
+    margin-top: 15px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 390px;
+    list-style: none;
+    width:fit-content;
+    background: linear-gradient(45deg, greenyellow, dodgerblue);
+    border: 1px solid black;
+    border-radius:20px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.csc{
+    font-size:x-large;
+}
+.footer li{
+    padding: 3px;
+    margin-left: 100px;
+   
+   
+}
+
+
+.footer li a:not(.csc){
+    text-decoration: none;
+    color:black;
+    font-size: medium;
+    
+}
+.footer li a:not(.csc):hover{
+    background-color: black;
+    color:wheat;
+    border-radius: 5px;
+}
+.csc{
+    color:rgb(207, 132, 132);
+    text-decoration:underline;
+    text-align: center;
+    justify-content: center;
+    font-family: monospace;
+}
+.forthcol{
+    margin-left:10px;
+}
+

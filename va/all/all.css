@@ -1,0 +1,130 @@
+* {
+    margin-top: 0%;
+    padding: 0%;
+  
+ 
+}
+
+.logo img {
+    height: 82px;
+    width: 88px;
+    display: inline-flex;
+    border-radius: 40%;
+    filter: contrast(111);
+    filter: brightness(-6);
+
+
+
+}
+
+.logo {
+
+    display: inline-block;
+
+}
+
+.nav {
+    display: inline-flex;
+    width: 100%;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(214 229 217);
+
+
+}
+
+.content {
+    display: inline-flex;
+    margin-inline: auto;
+}
+
+.content li {
+    text-align: left;
+    padding: 8px;
+    margin-top: 12px;
+    margin-inline: auto;
+    list-style-type: none;
+}
+
+.content li a {
+    text-decoration: none;
+    padding: 6px;
+}
+
+.content li a:hover {
+    color: rgb(235, 186, 186);
+    background-color: black;
+    border-radius: 20px;
+}
+
+.search {
+
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    margin-inline: auto;
+    margin-top: 16px;
+
+
+}
+
+.reg{
+    color: rgb(39, 35, 35);
+    width: fit-content;
+    margin-inline: auto;
+    height: fit-content;
+    margin-top: 16px;
+    border-radius: 6px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.mid{
+    border: 2px solid black;
+    height: 400px;
+}
+
+.footer {
+    margin-top: 15px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 390px;
+    list-style: none;
+    width:90%;
+    background-color:rgb(214 229 217) ;
+    border: 1px solid black;
+    border-radius:20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+
+}
+.footer li{
+    padding: 3px;
+    margin-left: 100px;
+    
+   
+}
+
+
+.footer li a:not(.csc){
+    text-decoration: none;
+    color:black;
+    font-size: smaller;
+    
+}
+.footer li a:not(.csc):hover{
+    background-color: black;
+    color:wheat;
+    border-radius: 5px;
+}
+.csc{
+    color:rgb(207, 132, 132);
+    text-decoration:underline;
+    text-align: center;
+    justify-content: center;
+    font-family: monospace;
+}
+.forthcol{
+    margin-left: ;
+}
+
